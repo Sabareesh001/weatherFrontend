@@ -31,7 +31,7 @@ jobs:
         run: npm ci
 
       - name: Build Angular app
-        run: npx ng build --configuration production --base-href /YOUR_REPO_NAME/
+        run: npx ng build --configuration production --base-href /weaherFrontend/
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
